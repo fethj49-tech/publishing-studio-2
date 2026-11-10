@@ -1,0 +1,995 @@
+{
+  "root": {
+    "type": "root",
+    "children": [
+      {
+        "type": "text",
+        "id": "d50bce75-43ea-4b70-a21e-f5734f3b1b1b",
+        "text": {
+          "ops": [
+            {
+              "insert": "Open Press Published Articles"
+            },
+            {
+              "insert": "\n",
+              "attributes": {
+                "paragraph": true
+              }
+            }
+          ]
+        },
+        "format": null,
+        "collapsed": false,
+        "completed": false,
+        "children": []
+      }
+    ],
+    "views": {
+      "list": {
+        "id": "list",
+        "type": "list",
+        "rank": "A",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@article": {
+            "id": "/attributes/@article",
+            "fieldPath": "/attributes/@article",
+            "rank": "z"
+          },
+          "/attributes/@excerpt": {
+            "id": "/attributes/@excerpt",
+            "fieldPath": "/attributes/@excerpt",
+            "rank": "zV"
+          },
+          "/attributes/@slug01": {
+            "id": "/attributes/@slug01",
+            "fieldPath": "/attributes/@slug01",
+            "rank": "zk"
+          },
+          "/attributes/@cover1": {
+            "id": "/attributes/@cover1",
+            "fieldPath": "/attributes/@cover1",
+            "rank": "zs"
+          },
+          "/attributes/@pubrow": {
+            "id": "/attributes/@pubrow",
+            "fieldPath": "/attributes/@pubrow",
+            "rank": "zw"
+          },
+          "6c85ae6b-c1f1-44b3-9adc-514edf2425e7": {
+            "id": "6c85ae6b-c1f1-44b3-9adc-514edf2425e7",
+            "fieldPath": "/attributes/@arttl",
+            "rank": "zy"
+          },
+          "87545f72-66ae-4284-af04-5766c76eaef0": {
+            "id": "87545f72-66ae-4284-af04-5766c76eaef0",
+            "fieldPath": "/attributes/@byln1",
+            "rank": "zz"
+          },
+          "ee6ea244-31f0-44cc-a389-32d972136403": {
+            "id": "ee6ea244-31f0-44cc-a389-32d972136403",
+            "fieldPath": "/attributes/@fmt01",
+            "rank": "zzV"
+          },
+          "fcec7f55-5d17-46aa-80fb-75688e824c2b": {
+            "id": "fcec7f55-5d17-46aa-80fb-75688e824c2b",
+            "fieldPath": "/attributes/@pubst",
+            "rank": "zzk"
+          }
+        }
+      },
+      "board": {
+        "id": "board",
+        "type": "board",
+        "rank": "B",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@article": {
+            "id": "/attributes/@article",
+            "fieldPath": "/attributes/@article",
+            "rank": "z"
+          },
+          "/attributes/@excerpt": {
+            "id": "/attributes/@excerpt",
+            "fieldPath": "/attributes/@excerpt",
+            "rank": "zV"
+          },
+          "/attributes/@slug01": {
+            "id": "/attributes/@slug01",
+            "fieldPath": "/attributes/@slug01",
+            "rank": "zk"
+          },
+          "/attributes/@cover1": {
+            "id": "/attributes/@cover1",
+            "fieldPath": "/attributes/@cover1",
+            "rank": "zs"
+          },
+          "/attributes/@pubrow": {
+            "id": "/attributes/@pubrow",
+            "fieldPath": "/attributes/@pubrow",
+            "rank": "zw"
+          },
+          "4c07fa34-f49e-4935-a30e-4c2cd203cbfe": {
+            "id": "4c07fa34-f49e-4935-a30e-4c2cd203cbfe",
+            "fieldPath": "/attributes/@arttl",
+            "rank": "zy"
+          },
+          "ef75d4d0-8456-4813-86da-b75f985e41c6": {
+            "id": "ef75d4d0-8456-4813-86da-b75f985e41c6",
+            "fieldPath": "/attributes/@byln1",
+            "rank": "zz"
+          },
+          "8a931e4a-4272-4012-a385-af2794d1e772": {
+            "id": "8a931e4a-4272-4012-a385-af2794d1e772",
+            "fieldPath": "/attributes/@fmt01",
+            "rank": "zzV"
+          },
+          "53d243c5-dd80-4ab7-9601-047ab502c46a": {
+            "id": "53d243c5-dd80-4ab7-9601-047ab502c46a",
+            "fieldPath": "/attributes/@pubst",
+            "rank": "zzk"
+          }
+        }
+      },
+      "mindmap": {
+        "id": "mindmap",
+        "type": "mindmap",
+        "rank": "D",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@article": {
+            "id": "/attributes/@article",
+            "fieldPath": "/attributes/@article",
+            "rank": "z"
+          },
+          "/attributes/@excerpt": {
+            "id": "/attributes/@excerpt",
+            "fieldPath": "/attributes/@excerpt",
+            "rank": "zV"
+          },
+          "/attributes/@slug01": {
+            "id": "/attributes/@slug01",
+            "fieldPath": "/attributes/@slug01",
+            "rank": "zk"
+          },
+          "/attributes/@cover1": {
+            "id": "/attributes/@cover1",
+            "fieldPath": "/attributes/@cover1",
+            "rank": "zs"
+          },
+          "/attributes/@pubrow": {
+            "id": "/attributes/@pubrow",
+            "fieldPath": "/attributes/@pubrow",
+            "rank": "zw"
+          },
+          "27d62dbc-b21b-47a4-9050-e79385ca099a": {
+            "id": "27d62dbc-b21b-47a4-9050-e79385ca099a",
+            "fieldPath": "/attributes/@arttl",
+            "rank": "zy"
+          },
+          "d81afffa-a8f7-4cad-a0f6-426469d5fb5e": {
+            "id": "d81afffa-a8f7-4cad-a0f6-426469d5fb5e",
+            "fieldPath": "/attributes/@byln1",
+            "rank": "zz"
+          },
+          "c275cb39-0b50-4df0-930d-179063d52a86": {
+            "id": "c275cb39-0b50-4df0-930d-179063d52a86",
+            "fieldPath": "/attributes/@fmt01",
+            "rank": "zzV"
+          },
+          "11e99b21-0002-410a-bd26-708ac5e01df1": {
+            "id": "11e99b21-0002-410a-bd26-708ac5e01df1",
+            "fieldPath": "/attributes/@pubst",
+            "rank": "zzk"
+          }
+        }
+      },
+      "orgchart": {
+        "id": "orgchart",
+        "type": "orgchart",
+        "rank": "E",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@article": {
+            "id": "/attributes/@article",
+            "fieldPath": "/attributes/@article",
+            "rank": "z"
+          },
+          "/attributes/@excerpt": {
+            "id": "/attributes/@excerpt",
+            "fieldPath": "/attributes/@excerpt",
+            "rank": "zV"
+          },
+          "/attributes/@slug01": {
+            "id": "/attributes/@slug01",
+            "fieldPath": "/attributes/@slug01",
+            "rank": "zk"
+          },
+          "/attributes/@cover1": {
+            "id": "/attributes/@cover1",
+            "fieldPath": "/attributes/@cover1",
+            "rank": "zs"
+          },
+          "/attributes/@pubrow": {
+            "id": "/attributes/@pubrow",
+            "fieldPath": "/attributes/@pubrow",
+            "rank": "zw"
+          },
+          "e8989800-5ef1-470b-8433-9e4c15daf9f1": {
+            "id": "e8989800-5ef1-470b-8433-9e4c15daf9f1",
+            "fieldPath": "/attributes/@arttl",
+            "rank": "zy"
+          },
+          "e2c7488b-d8fd-4af9-ad61-0bb1f91d2ebf": {
+            "id": "e2c7488b-d8fd-4af9-ad61-0bb1f91d2ebf",
+            "fieldPath": "/attributes/@byln1",
+            "rank": "zz"
+          },
+          "27d70d2b-6d1e-4998-90e0-68150dac1934": {
+            "id": "27d70d2b-6d1e-4998-90e0-68150dac1934",
+            "fieldPath": "/attributes/@fmt01",
+            "rank": "zzV"
+          },
+          "c2b58d89-ed25-4d35-a781-7b8d570e8e8c": {
+            "id": "c2b58d89-ed25-4d35-a781-7b8d570e8e8c",
+            "fieldPath": "/attributes/@pubst",
+            "rank": "zzk"
+          }
+        }
+      },
+      "gantt": {
+        "id": "gantt",
+        "type": "gantt",
+        "rank": "F",
+        "columns": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7",
+            "width": 480
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A",
+            "hidden": true
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F",
+            "hidden": true
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N",
+            "hidden": true
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V",
+            "hidden": true
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c",
+            "hidden": true
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k",
+            "hidden": true
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s",
+            "hidden": true
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t",
+            "hidden": true
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u",
+            "hidden": true
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF",
+            "hidden": true
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF",
+            "hidden": true
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x",
+            "hidden": true
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y",
+            "hidden": true
+          },
+          "/attributes/@article": {
+            "id": "/attributes/@article",
+            "fieldPath": "/attributes/@article",
+            "rank": "z",
+            "hidden": false
+          },
+          "/attributes/@excerpt": {
+            "id": "/attributes/@excerpt",
+            "fieldPath": "/attributes/@excerpt",
+            "rank": "zV",
+            "hidden": false
+          },
+          "/attributes/@slug01": {
+            "id": "/attributes/@slug01",
+            "fieldPath": "/attributes/@slug01",
+            "rank": "zk",
+            "hidden": false
+          },
+          "/attributes/@cover1": {
+            "id": "/attributes/@cover1",
+            "fieldPath": "/attributes/@cover1",
+            "rank": "zs",
+            "hidden": false
+          },
+          "/attributes/@pubrow": {
+            "id": "/attributes/@pubrow",
+            "fieldPath": "/attributes/@pubrow",
+            "rank": "zw",
+            "hidden": false
+          },
+          "39cc42c6-6aa8-44d4-88a3-3edab9344cec": {
+            "id": "39cc42c6-6aa8-44d4-88a3-3edab9344cec",
+            "fieldPath": "/attributes/@arttl",
+            "rank": "zy"
+          },
+          "acf37ede-1491-4aad-9909-fba72ef25f00": {
+            "id": "acf37ede-1491-4aad-9909-fba72ef25f00",
+            "fieldPath": "/attributes/@byln1",
+            "rank": "zz"
+          },
+          "d7ad4cc4-1069-4521-8eb3-83e7c0a4552a": {
+            "id": "d7ad4cc4-1069-4521-8eb3-83e7c0a4552a",
+            "fieldPath": "/attributes/@fmt01",
+            "rank": "zzV"
+          },
+          "717cb7f7-fd3d-4aa5-9402-53a67dd98770": {
+            "id": "717cb7f7-fd3d-4aa5-9402-53a67dd98770",
+            "fieldPath": "/attributes/@pubst",
+            "rank": "zzk"
+          }
+        }
+      },
+      "table": {
+        "id": "table",
+        "type": "table",
+        "rank": "V",
+        "columns": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7",
+            "width": 480
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A",
+            "hidden": true
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F",
+            "hidden": true
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N",
+            "hidden": true
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V",
+            "hidden": true
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c",
+            "hidden": true
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k",
+            "hidden": true
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s",
+            "hidden": true
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t",
+            "hidden": true
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u",
+            "hidden": true
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF",
+            "hidden": true
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF",
+            "hidden": true
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x",
+            "hidden": true
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y",
+            "hidden": true
+          },
+          "/attributes/@article": {
+            "id": "/attributes/@article",
+            "fieldPath": "/attributes/@article",
+            "rank": "z",
+            "hidden": false
+          },
+          "/attributes/@excerpt": {
+            "id": "/attributes/@excerpt",
+            "fieldPath": "/attributes/@excerpt",
+            "rank": "zV",
+            "hidden": false
+          },
+          "/attributes/@slug01": {
+            "id": "/attributes/@slug01",
+            "fieldPath": "/attributes/@slug01",
+            "rank": "zk",
+            "hidden": false
+          },
+          "/attributes/@cover1": {
+            "id": "/attributes/@cover1",
+            "fieldPath": "/attributes/@cover1",
+            "rank": "zs",
+            "hidden": false
+          },
+          "/attributes/@pubrow": {
+            "id": "/attributes/@pubrow",
+            "fieldPath": "/attributes/@pubrow",
+            "rank": "zw",
+            "hidden": false
+          },
+          "17b7afd8-6270-4576-889d-19689fd6defd": {
+            "id": "17b7afd8-6270-4576-889d-19689fd6defd",
+            "fieldPath": "/attributes/@arttl",
+            "rank": "zy"
+          },
+          "d6131251-1624-4b74-9390-255f163cfa55": {
+            "id": "d6131251-1624-4b74-9390-255f163cfa55",
+            "fieldPath": "/attributes/@byln1",
+            "rank": "zz"
+          },
+          "dadb5696-39e9-4a88-8e89-1194160561a4": {
+            "id": "dadb5696-39e9-4a88-8e89-1194160561a4",
+            "fieldPath": "/attributes/@fmt01",
+            "rank": "zzV"
+          },
+          "ebb59a4b-a096-4e40-8502-a5f33fef75a6": {
+            "id": "ebb59a4b-a096-4e40-8502-a5f33fef75a6",
+            "fieldPath": "/attributes/@pubst",
+            "rank": "zzk"
+          }
+        }
+      },
+      "actionsheet": {
+        "id": "actionsheet",
+        "type": "actionsheet",
+        "rank": "F",
+        "columns": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7",
+            "width": 480
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A",
+            "hidden": true
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V",
+            "hidden": true
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c",
+            "hidden": true
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k",
+            "hidden": true
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s",
+            "hidden": true
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t",
+            "hidden": true
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u",
+            "hidden": true
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF",
+            "hidden": true
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF",
+            "hidden": true
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x",
+            "hidden": true
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y",
+            "hidden": true
+          },
+          "b5e836cc-347f-478d-b8a1-e184e514cd0c": {
+            "id": "b5e836cc-347f-478d-b8a1-e184e514cd0c",
+            "fieldPath": "/attributes/@arttl",
+            "rank": "z"
+          },
+          "8bb52801-93d2-49e9-a788-c07d571a2378": {
+            "id": "8bb52801-93d2-49e9-a788-c07d571a2378",
+            "fieldPath": "/attributes/@byln1",
+            "rank": "zV"
+          },
+          "3f1a8d7c-8516-4bb1-8b03-85d6c2e6ee2b": {
+            "id": "3f1a8d7c-8516-4bb1-8b03-85d6c2e6ee2b",
+            "fieldPath": "/attributes/@fmt01",
+            "rank": "zk"
+          },
+          "56e87642-008d-4c04-a738-2c3fefdced92": {
+            "id": "56e87642-008d-4c04-a738-2c3fefdced92",
+            "fieldPath": "/attributes/@pubst",
+            "rank": "zs"
+          }
+        }
+      }
+    },
+    "fields": {
+      "@excerpt": {
+        "type": "string",
+        "displayName": "Excerpt"
+      },
+      "@slug01": {
+        "type": "string",
+        "displayName": "Slug"
+      },
+      "@fmt01": {
+        "type": "Select",
+        "displayName": "Format",
+        "options": {
+          "written": {
+            "id": "written",
+            "name": "Written work",
+            "color": "#8B5E3C",
+            "rank": "0"
+          },
+          "visual": {
+            "id": "visual",
+            "name": "Visual art",
+            "color": "#9A7150",
+            "rank": "1"
+          },
+          "audio": {
+            "id": "audio",
+            "name": "Audio",
+            "color": "#6D7861",
+            "rank": "2"
+          },
+          "video": {
+            "id": "video",
+            "name": "Video",
+            "color": "#9B5946",
+            "rank": "3"
+          }
+        }
+      },
+      "@article": {
+        "type": "string",
+        "displayName": "Article Body"
+      },
+      "@byln1": {
+        "type": "string",
+        "displayName": "Creator"
+      },
+      "@cover1": {
+        "type": "string",
+        "displayName": "Cover Image URL"
+      },
+      "@arttl": {
+        "type": "string",
+        "displayName": "Article Title"
+      },
+      "@pubrow": {
+        "type": "string",
+        "displayName": "Draft Row ID"
+      },
+      "@pubst": {
+        "type": "Select",
+        "displayName": "Publication Status",
+        "options": {
+          "published": {
+            "id": "published",
+            "name": "Published",
+            "color": "#6D7861",
+            "rank": "0"
+          },
+          "unpublished": {
+            "id": "unpublished",
+            "name": "Unpublished",
+            "color": "#8B5E3C",
+            "rank": "1"
+          }
+        }
+      }
+    }
+  },
+  "preferences": {
+    "defaultView": "table",
+    "avatar": {
+      "type": "emoji",
+      "value": "🛰️"
+    }
+  },
+  "pinnedAt": "2026-11-08T02:42:20.283Z"
+}

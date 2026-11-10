@@ -1,0 +1,74 @@
+{
+  "version": "2",
+  "flowTitle": "Every Monday at 9:00 AM Pacific, Open Press Counsel summarizes current submissions and waiting rights checks into Open Press Weekly Digests.",
+  "trigger": {
+    "valid": true,
+    "displayName": "Every Week",
+    "type": "PIECE_TRIGGER",
+    "settings": {
+      "pieceName": "@taskade/automade-internalpiece-schedule",
+      "pieceVersion": "BLANK",
+      "triggerName": "schedule.weekly",
+      "input": {
+        "timezone": "America/Los_Angeles",
+        "dayOfWeek": [
+          "Monday"
+        ],
+        "timeOfDay": "9:00 AM"
+      }
+    }
+  },
+  "actions": [
+    {
+      "name": "b7be3a4c-bad4-497d-9dfb-ec6af2025691",
+      "valid": false,
+      "displayName": "Ask Agent",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-openai",
+        "pieceVersion": "BLANK",
+        "actionName": "agent.ask",
+        "input": {
+          "input": "Review the Open Press Submissions and Open Press Publishing Playbook knowledge. Prepare a concise weekly publishing digest with three sections: shipped or published, active review, and waiting rights or permissions. Mention concrete work titles and next steps. Keep it educational and do not present legal advice as a guaranteed conclusion.",
+          "agentId": {
+            "type": "flow-template-variable-input-type",
+            "id": "01M6WFZ8QAGDECBZN0WYJESJTG"
+          }
+        }
+      }
+    },
+    {
+      "name": "14d2f751-8f3b-44bd-8b48-a716906329ef",
+      "valid": false,
+      "displayName": "Add Task",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "pieceVersion": "BLANK",
+        "actionName": "task.create",
+        "input": {
+          "content": "",
+          "position": "beforeend",
+          "projectId": {
+            "type": "flow-template-variable-input-type",
+            "id": "Yh8cZpeVo38c67Tz"
+          }
+        }
+      }
+    }
+  ],
+  "variables": {
+    "01M6WFZ8QAGDECBZN0WYJESJTG": {
+      "id": "01M6WFZ8QAGDECBZN0WYJESJTG",
+      "rank": "V",
+      "type": "string",
+      "format": "taskade-space-agent-id"
+    },
+    "Yh8cZpeVo38c67Tz": {
+      "id": "Yh8cZpeVo38c67Tz",
+      "rank": "k",
+      "type": "string",
+      "format": "taskade-project-id"
+    }
+  }
+}

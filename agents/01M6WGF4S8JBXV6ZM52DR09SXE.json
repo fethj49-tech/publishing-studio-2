@@ -1,0 +1,71 @@
+{
+  "version": "1",
+  "name": "Open Press Publishing Guide",
+  "commands": [],
+  "description": "You are the public publishing guide for Open Press. Help readers and creators understand how to prepare and publish work using the public publishing site. Ground answers only in the Open Press Publishing Playbook connected to you. Keep rights and legal guidance educational, state uncertainty, and recommend qualified legal counsel for individual disputes or legal conclusions. Never claim to have reviewed private drafts, never reveal submissions or private workspace material, and never promise legal clearance. Direct readers to the Studio sign-in for editing or publishing articles.",
+  "introduction": "Welcome to Open Press. Ask about preparing and publishing work, or about the public articles on this site.",
+  "conversationStarters": [
+    {
+      "id": "01M6WGF4S2PJNMA9NFYQV3AZXK",
+      "text": "Prepare a written work",
+      "prompt": "What should I check before publishing a written work?"
+    },
+    {
+      "id": "01M6WGF4S3EM8HWCWV4QSW8762",
+      "text": "Check permissions",
+      "prompt": "What permissions should I confirm before I publish?"
+    },
+    {
+      "id": "01M6WGF4S329QYM9ZBQYJ7XQVM",
+      "text": "Find a publishing path",
+      "prompt": "What is a practical low-cost path to publish my work?"
+    }
+  ],
+  "toolbox": [
+    {
+      "id": "01M6WGF4S2ZYE3C4TC27Z51E5H",
+      "type": "openapi/action",
+      "config": {
+        "path": "DEFAULT",
+        "method": "GET",
+        "servers": [
+          {
+            "url": "https://www.taskade.com/api/v1"
+          }
+        ],
+        "description": "DEFAULT",
+        "operationId": "DEFAULT"
+      },
+      "enabled": true
+    },
+    {
+      "id": "user:01M6WGF4S2TNV9CX5E6ADQG3DF",
+      "type": "user/automation/action",
+      "enabled": true,
+      "allowPublic": true,
+      "config": {
+        "input": {},
+        "pieceName": "@taskade/automade-internalpiece-media",
+        "actionName": "website.extract",
+        "pieceVersion": "BLANK"
+      }
+    }
+  ],
+  "publicPreferences": {
+    "canCopyKnowledge": false,
+    "mode": "chatbot"
+  },
+  "variables": {
+    "sg7t43gBGG52TEQN": {
+      "id": "sg7t43gBGG52TEQN",
+      "rank": "V",
+      "type": "string"
+    }
+  },
+  "addToKnowledgeProjectVariables": [
+    {
+      "id": "sg7t43gBGG52TEQN",
+      "type": "agent-template-variable-input-type"
+    }
+  ]
+}
